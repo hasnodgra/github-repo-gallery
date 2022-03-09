@@ -27,6 +27,7 @@ const displayUserInfo = function (data) // JSON data is the parameter
           <p><strong>Number of public repos:</strong> ${data.public_repos}</p>
         </div> `;
     overview.append(div);
+    gitRepos();
 };4
 
 //fetch repos
