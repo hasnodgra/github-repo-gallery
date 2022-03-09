@@ -12,7 +12,7 @@ const gitUserInfo = async function () {
 gitUserInfo();
 
 //fetch and display user info
-const displayUserInfo = fuction (data) // JSON data is the parameter
+const displayUserInfo = function (data) // JSON data is the parameter
 {   const div = document.createElement("div"); //creating new div
     div.classList.add("user-info");  //giving new div a class
     div.innerHTML =`
